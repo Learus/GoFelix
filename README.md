@@ -17,6 +17,7 @@ Make a **7 second** minigame **about our friend Felix**!
 7. Quick rules:
     1. Use the correct unity version
     2. Do not use tags or physics layers
+        2.1. Or if you do, don't change the layer names. Just use numbers.     
     3. Use specific names for Monobehaviours or ideally use namespaces.
     4. Make sure your game is completed in 7 seconds, because it will be automatically termianted after that time.
 
