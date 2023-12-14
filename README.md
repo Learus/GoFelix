@@ -38,7 +38,7 @@ We welcome creative and diverse ideas. However, we want to make it clear that an
 
 In case you are wondering, here's some information about Felix:
 
-He's from **Berlin**, and loves **beer, electronic music, and raves**. He's a fellow Game Dev, and his hobbies include:
+He's from **Hamburg**, and loves **beer, electronic music, and raves**. He's a fellow Game Dev, and his hobbies include:
 * **Augmented Reality**
 * Computer **Keyboards**
 * **Bouldering**
