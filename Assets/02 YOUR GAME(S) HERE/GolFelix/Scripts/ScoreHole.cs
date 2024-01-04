@@ -23,7 +23,6 @@ public class ScoreHole : MonoBehaviour
     {
         if (collision.gameObject.name == "Ball")
         {
-            Debug.Log("You win!");
             GoFelixManager.Instance.win = true;
             vfx.Play();
             sfx.Play();

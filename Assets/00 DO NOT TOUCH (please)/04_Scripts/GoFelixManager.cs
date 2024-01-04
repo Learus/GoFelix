@@ -35,9 +35,6 @@ public class GoFelixManager : PersistentSingleton<GoFelixManager>
     }
 
     public int GetNextGameIndex(){
-
-        Debug.Log(remainingScenes);
-        Debug.Log(remainingScenes.Count);
         
         // If all scenes have been loaded, reset the list
         if (remainingScenes.Count == 0)
@@ -61,7 +58,6 @@ public class GoFelixManager : PersistentSingleton<GoFelixManager>
 
         if (SceneManager.GetActiveScene().buildIndex > 1)
         {
-            Debug.Log("queued next game");
             Invoke("NextGame", 7.25f);
         }
     }
@@ -79,6 +75,12 @@ public class GoFelixManager : PersistentSingleton<GoFelixManager>
 
     public void NextGameFree()
     {
+        Lives = 3;
         SceneManager.LoadScene(1);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

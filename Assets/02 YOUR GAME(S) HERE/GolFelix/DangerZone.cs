@@ -26,9 +26,7 @@ public class DangerZone : MonoBehaviour
 
     //Upon collision with another GameObject, this GameObject will reverse direction
     private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log(other.GetComponent<Rigidbody>().velocity.magnitude);
-        
+    {   
         if( !hasPlayed && other.GetComponent<Rigidbody>().velocity.magnitude <= magnitudeTrigger){
             source.Play();
             hasPlayed = true;

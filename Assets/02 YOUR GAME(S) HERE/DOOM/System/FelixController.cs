@@ -40,7 +40,6 @@ namespace DOOMSpace
 
                 if (Physics.Raycast(ray, out hit, 100.0f))
                 {
-                    Debug.Log("You selected the " + hit.transform.name); // ensure you picked right object
                     var tar = hit.transform.GetComponent<Target>();
                     tar.Hit();
 

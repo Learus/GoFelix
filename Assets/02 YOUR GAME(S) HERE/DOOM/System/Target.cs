@@ -65,7 +65,6 @@ namespace DOOMSpace
             vfx.transform.SetParent(null);
             //GetComponent<GraphicRaycaster>().enabled = false;
 
-            Debug.Log("Hit");
             StartCoroutine(Kill());
         }
 

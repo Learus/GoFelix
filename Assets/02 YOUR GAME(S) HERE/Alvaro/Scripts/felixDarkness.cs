@@ -20,7 +20,6 @@ public class felixDarkness : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(GoFelixManager.Instance.win);
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         flashLightRenderer.transform.position = new Vector3(mousePosition.x, mousePosition.y, 0f);
 

@@ -18,8 +18,6 @@ namespace Underfelix
         {
             if (col.gameObject.name == "Heart")
             {
-                Debug.Log("Died");
-
                 foreach (Rigidbody2D rb in FindObjectsOfType(typeof(Rigidbody2D)))
                 {
                     rb.bodyType = RigidbodyType2D.Static;
